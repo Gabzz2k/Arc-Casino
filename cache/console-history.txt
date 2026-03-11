@@ -1,0 +1,2 @@
+await casino.fundCasino({ value: ethers.parseUnits("100", 18) }); // fund with 100 units
+const casino = await ethers.getContractAt("Casino", "0x62a8277AB64d88B5e9D064978Bf4Bdf460DAB26E");
